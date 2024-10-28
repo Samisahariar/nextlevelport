@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'next/link'
-import { Nav } from './Nav'
-import { Button } from './ui/button'
-import MobileNav from './MobileNav'
+import React from 'react';
+import Link from 'next/link';
+import { Nav } from './Nav';
+import { Button } from './ui/button';
+import MobileNav from './MobileNav';
 
 const Header = () => {
     return (
@@ -15,7 +15,7 @@ const Header = () => {
                 <div className='hidden lg:flex items-center gap-8'>
                     <Nav></Nav>
                     <Link href="/contacts">
-                        <Button>Contact Us</Button>
+                        <Button>Hire Me</Button>
                     </Link>
                 </div>
                 
