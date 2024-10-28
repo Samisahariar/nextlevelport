@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Photo = () => {
   return (
-    <div className='w-full h-full relative '>
+    <div className='w-full h-full relative'>
         <motion.div 
             initial={{opacity: 0}}
             animate={
@@ -16,11 +16,11 @@ const Photo = () => {
                 }
             }
         >
-            <div className='w-[297px] h-[290px] xl:w-[498px] xl:h-[450px] mix-blend-lighten absolute top-0 right-4'>
+            <div className='w-[297px] h-[290px] xl:w-[498px] xl:h-[450px] mix-blend-lighten absolute top-0 right-7'>
                 <Image src="/sami.png" priority quality={100} fill alt='' className='object-contain' ></Image>
             </div>
         </motion.div>
-        <motion.svg className="w-[307px] xl:w-[566px] h-[300px] xl:h-[506px] "
+        <motion.svg className="w-[307px] xl:w-[566px] h-[300px] xl:h-[506px] p-4"
             fill="transparent"
             viewBox="0 0 506 506"
             xmlns="http://www.w3.org/20/svg"
