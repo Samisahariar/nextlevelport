@@ -16,7 +16,7 @@ const Photo = () => {
                 }
             }
         >
-            <div className='w-[297px] h-[290px] xl:w-[498px] xl:h-[450px] mix-blend-lighten absolute top-0 right-7'>
+            <div className='w-[297px] h-[290px] xl:w-[498px] xl:h-[450px] mix-blend-lighten absolute top-0 md:right-1 xl:right-7 right-1'>
                 <Image src="/sami.png" priority quality={100} fill alt='' className='object-contain' ></Image>
             </div>
         </motion.div>
