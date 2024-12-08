@@ -1,5 +1,4 @@
 "use client"
-
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -28,7 +27,7 @@ const Photo = () => {
             <motion.circle 
                 cx="256px"
                 cy="243px"
-                r="254px"
+                r="230px"
                 stroke="#00ff99"
                 strokeWidth="5"
                 strokeLinecap="round"
@@ -48,7 +47,6 @@ const Photo = () => {
                     }
                 }
             >
-
             </motion.circle>
         </motion.svg>
     </div>
